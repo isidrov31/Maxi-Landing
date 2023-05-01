@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
+
+:root {
+  --color1: #362fd9;
+  --color2: #3c84ab;
+  --color3: #85cdfd;
+  --color4: #defcf9;
+  --color5: #537fe7;
+  --color6: #c0eef2;
+  --color7: #e9f8f9;
+  --color8: #181823;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fuzzy Bubbles";
+  text-decoration: none;
+  list-style: none;
+}
+
+/* MAIN */
+
+#main1 {
+  background-color: var(--color3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+#main2 {
+  background-color: var(--color4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+
+#main3 {
+  background-color: var(--color3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 65px;
+  background-color: var(--color5);
+  padding: 0 30;
+  /* Fixear el header en el top */
+  position: fixed;
+  top: 0;
+  /* Para que se vea siempre por encima */
+  z-index: 2;
+}
+
+.logo-maradona {
+  display: flex;
+  margin-left: 10px;
+  padding: 0;
+  align-self: center;
+  height: 50%;
+}
+
+.logo-hockey {
+  display: flex;
+  margin-right: 15px;
+  padding: 0;
+  align-self: center;
+  height: 50%;
+}
+
+.navbar,
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-list {
+  color: #181823;
+  gap: 50px;
+}
+
+.navbar-list a {
+  color: #181823;
+}
+
+.navbar-list li:first-child > a {
+  color: var(--color7);
+  font-size: 25px;
+}
+
+#objetivo-img-principal {
+  padding: 0px 70px;
+  margin-top: 70px;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nombre-objetivo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 15px;
+}
+
+.nombre-objetivo h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  width: 80%;
+  min-width: 350px;
+}
+
+.nombre-objetivo p {
+  font-size: 15px;
+  width: 100%;
+}
+
+.logo-club {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-principal img {
+  border-radius: 15px;
+}
+
+/* Divisiones y Location */
+
+#divisiones-location {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 70px;
+  background-color: var(--color4);
+  gap: 40px;
+}
+
+.divisiones {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 50%;
+  gap: 20px;
+}
+
+.divisiones h2 {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+
+.div-title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.list-divisiones {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-divisiones li {
+  display: flex;
+  justify-self: start;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 5px;
+}
+
+.whatsapp {
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  font-size: 25px;
+  background-color: #25d366;
+  color: white;
+  cursor: pointer;
+}
+
+.instagram {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.location {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location iframe {
+  border-radius: 10px;
+}
+
+/* DETAILS y GALERY */
+
+.details-galery {
+  width: 1200px;
+  display: flex;
+  gap: 40px;
+  padding: 70px 70px;
+}
+
+.details-divisiones {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.details h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.list-diviones2023 {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.galery {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
