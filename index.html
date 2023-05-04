@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maxi Landing</title>
     <link rel="stylesheet" href="assets/index.css" />
+    <link rel="stylesheet" href="assets/mediaqueries.css" />
   </head>
   <body>
     <header>
       <nav class="navbar">
-        <img
+        <label for="menu-toggle" class="menu-label">
+          <img src="assets/img/menu.png" alt="" id="" />
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+
+        <!-- <img
           src="assets/maradona.png"
           alt="logo maradona"
           width="40px"
           height="50px"
           class="logo-maradona"
-        />
+        /> -->
         <ul class="navbar-list">
           <li><a href="">Home</a></li>
           <li><a href="">Redes</a></li>
@@ -59,6 +65,7 @@
             src="assets/285351900_1389945468179657_5622107166853849228_n.jpg"
             alt="chicas del club napoles con su entrenador"
             width="500xp"
+            class="imagen-principal"
           />
         </div>
       </section>
@@ -107,7 +114,7 @@
       </section>
     </main>
     <main id="main3">
-      <div class="details-galery">
+      <section id="details-galery">
         <div class="details-divisiones">
           <div class="details">
             <h3>Categorías 2023</h3>
@@ -133,7 +140,7 @@
           <img src="assets/galery5.PNG" alt="foto cinco" width="200px" />
           <img src="assets/galery6.PNG" alt="foto seis" width="200px" />
         </div>
-      </div>
+      </section>
     </main>
   </body>
 </html>

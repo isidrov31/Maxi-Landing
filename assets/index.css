@@ -233,7 +233,7 @@ header {
 
 /* DETAILS y GALERY */
 
-.details-galery {
+#details-galery {
   width: 1200px;
   display: flex;
   gap: 40px;
@@ -273,4 +273,11 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 5px;
+}
+
+/* ocultar menu hambuerguesa */
+
+.menu-label,
+#menu-toggle {
+  display: none;
 }
