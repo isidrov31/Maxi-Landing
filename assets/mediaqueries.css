@@ -11,7 +11,7 @@
   --color8: #181823;
 }
 
-/* MAIN */
+/* TABLET */
 
 @media (max-width: 760px) {
   #main1,
@@ -146,4 +146,51 @@
     font-size: 40px;
     width: 90%;
   }
+}
+
+
+/* CELULAR */
+
+@media (max-width: 576px) {
+
+  .nombre-objetivo p{
+    min-height: 400px;
+    max-height: 400px;
+    max-width: 300px;
+    min-width: 300px;
+  }
+
+
+  .divisiones h2{
+    text-align: center;
+    width: 100%;
+   font-size: 20px;
+    
+  }
+  .div-title img {
+    display: none;}
+
+    .list-divisiones ul{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      font-size: 10px;
+    }
+
+    .list-diviones2023{
+      font-size: 10px;
+    }
+
+    footer{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      font-size: 10px;
+    }
+  
+    .footer-links{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
 }
